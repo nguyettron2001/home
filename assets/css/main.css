@@ -1,0 +1,302 @@
+.container{
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+}
+.body{
+    font-size: 16px;
+    line-height: 1.5px;
+    font-weight: 400px;
+}
+ul{
+    list-style: none;
+}
+.box .box-head h3{
+    display: block;
+}
+/* =========header========= */
+#header ul{
+    display: flex;
+    flex: 100%;
+    margin-top: 25px;
+}
+#header .logo{
+    margin-top: 25px;
+}
+#header ul li{
+    display: inline-block;
+    padding: 15px;
+}
+#header ul li a{
+    text-transform: uppercase;
+    font-weight:900px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+#header ul li button{
+    background-color: #ffffff;
+}
+/* ==========breadcrums======= */
+#breadcrums{
+    background-color: #e9e9e9;
+    padding: 10px 0px;
+}
+#breadcrums a{
+    padding: 10px;
+    color: #222222;
+    font-size: 17px;
+    text-decoration: none;
+}
+#breadcrums i{
+    padding: 10px;
+}
+/* ==========info-product======== */
+#wp-content .container{
+    margin-top: 30px;
+}
+#info-product{
+    display: flex;
+    border-bottom: 2px solid #e9f1f8;
+    margin-bottom: 25px;
+}
+#info-product p{
+    color:#777777;
+}
+.post-thumb{
+    margin-right: 30px;
+}
+#info-product .name-product{
+    font-size: 24px;
+    font-weight: 900px;
+    color: #222222;
+    text-transform: uppercase;
+}
+#info-product .code-product span i{
+    color:#89b124;
+}
+#info-product .more-info{
+    font-size:14px
+}
+#info-product .price-product{
+    color:#af8a4e;
+    font-size: 28px;
+    font-weight: 1200px;
+}
+#info-product .price-product span{
+    color:#949494;
+    font-size: 18px;
+    text-decoration:line-through;
+}
+.amount span{
+    border: 1px solid #777777;
+    padding:5px 10px;
+}
+#info-product .box .add-cart {
+    color :#ffffff;
+    background-color: #029900;
+    padding:10px;
+}
+#info-product .box .buy-now {
+    color :#ffffff;
+    background-color: #e60f1e;
+    padding:10px;
+}
+#info-product .box{
+    margin: 25px 0px;
+}
+#info-product .payments span i{
+    color:red;
+}
+/* ==========detail-product====== */
+#detail-product .box .box-body{
+    border: 2px solid #e9f1f8 ;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#detail-product .box .box-body .post-thumb{
+    text-align: center;
+}
+#detail-product .box .box-head{
+    margin: 45px 10px 8px 0px;
+}
+#detail-product .box .box-head a{
+    background-color: #e9f1f8;
+    margin-right: 15px;
+    color:#555555;
+    padding:10px;
+}
+#detail-product .box .box-body{
+    color:#777777;
+    font-size:14px;
+}
+#detail-product .box .box-body .post-thumb{
+    text-align: center;
+}
+#detail-product .box .box-body .post-thumb a{
+    display: inline-block;
+    margin: 10px;
+}
+/* ==============related-product========= */
+#related-product .box .box-head{
+    display: flex;
+    border-bottom:2px solid #e9f1f8 ;
+    margin-bottom: 30px;
+}
+#related-product .box .box-head .post-title{
+    border-bottom:3px solid #e10000 ;
+}
+#related-product .box .box-head p{
+    color:#333333;
+    font-size:23px;
+    font-weight: 900px;
+
+    text-transform: uppercase;
+}
+.next i{
+    display: inline-block;
+    background-color: #e9f1f8;
+    padding:10px;
+}
+#related-product .box .box-body ul{
+    display: flex;
+    padding-left: 0px;
+}
+#related-product .box .box-body ul li{
+    display: block;
+    border: 1px solid #e9f1f8 ;
+    margin-left: 10px;
+}
+#related-product .box .box-body ul li:first-child{
+    margin-left: 0px;
+} 
+#related-product .box .box-body .name-product{
+    color:#000000;
+    font-size: 9,67px;
+    font-weight: bold;
+    padding: 15px;
+}
+.box .box-body .box-footer{
+    display: flex;
+    background-color: #f7f4ff;
+    padding: 15px;
+}
+.box .box-body .box-footer .buy-now p{
+    color:#ffffff;
+    font-size:8,98px;
+    background-color: #232633;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.box .box-body .box-footer p{
+    margin-bottom: 0px;
+}
+.box .box-body .box-footer .price p{
+    
+    color:#c40001;
+    font-size: 10,36px;
+    font-weight: bold;
+}
+.box .box-body .box-footer .price span{
+    color:#bbbbbb;
+    font-size: 8,98px;
+    font-weight: 900px;
+    text-decoration: line-through;
+}
+/* =============sidebar=========== */
+#sidebar{
+    margin-left: 20px;
+}
+#sidebar .box-menu {
+    border: 2px solid #d4d4d4;
+    margin: 50px 0px;
+}
+#sidebar .box-menu ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#sidebar .box-menu ul li:not(li:first-child) {
+    padding: 15px;
+}
+#sidebar .box-menu ul li:first-child {
+    background-color: #283943;
+    border-bottom: 2px solid #d4d4d4;
+    padding:10px 15px;
+}
+#sidebar .box-menu ul li:first-child a{
+    color:#ffffff;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+#sidebar .box-menu ul li:not(li:last-child){
+    border-bottom: 2px solid #d4d4d4;
+}
+#sidebar .box-menu ul li a:not(li:first-child a){
+    text-decoration: none;
+    color:#333333;
+    font-size:14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#sidebar a:hover {
+    color:#d5be00;
+}
+#sidebar .box-menu ul li{
+    display: flex;
+}
+#sidebar .box-menu ul li a{
+    display: block;
+    float: left;
+}
+ #sidebar .box-menu .post-thumb{
+    float: left;
+}
+#sidebar .box-menu .post-title{
+    display: block;
+    margin-bottom: 5px;
+}
+#sidebar .box-menu .price{
+    display: block;
+}
+.sell-product .post-title{
+    color:#272727;
+    font-size:14px;
+    font-weight: 1200px;
+}
+.sell-product .price{
+    color: #d40707;
+    font-size:15px;
+    font-weight: 1200px;
+}
+.sell-product .price span{
+    color: #909090;
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 1200px;
+}
+/* ===============footer============ */
+#footer{
+    background-color: #1b1b1b;
+}
+#footer .container{
+    padding-top: 75px;
+    display: flex;
+}
+#footer .container .box{
+    display: block;
+}
+#footer .box-left{
+    width:360px;
+    color: #ffffff;
+    text-align: justify;
+    display: block;
+}
+#footer .box .box-body{
+    margin-top: 20px;
+}
+#footer .box .box-body ul{
+    padding-left: 0px;
+}
+#footer .box .box-body a{
+    color: #ffffff;
+}
